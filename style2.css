@@ -31,6 +31,8 @@ h3 {
     font-family: "Raleway", sans-serif;
     font-weight: 400;
     color: rgb(31, 27, 66);
+    display: flex;
+    justify-content: center;
 }
 
 p {
@@ -72,7 +74,8 @@ nav a:visited {
 }
 
 .container {
-    max-width: 35%;
+    display: flex;
+    justify-content: center;
     margin: 0 auto;
     padding-bottom: 1rem;
     font-family: "Raleway", sans-serif;
@@ -84,13 +87,23 @@ table {
     font-size: 150%;
     color: rgb(34, 37, 53);
     height: 350px;
+    border-radius: 10px;
+    border-color: rgb(34, 37, 53);
 }
 
 th {
     padding: 1rem;
     background-color: rgb(138, 142, 206);
+    border-radius: 10px;
 }
 
 td {
     padding: 1rem;
+}
+
+footer {
+    display: flex;
+    justify-content: end;
+    float: left;
+    margin: 3rem 0 0 0;
 }
