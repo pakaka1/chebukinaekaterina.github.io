@@ -1,3 +1,90 @@
 body {
     background-color: rgb(167, 176, 224);
+    margin: 0;
+}
+
+header {
+    background: #00b0d800 url(image/шапка.png) no-repeat;
+    position: static;
+}
+
+h1 {
+    font-size: 250%;
+    color:rgb(240, 241, 255);
+}
+
+h2 {
+    font-size: 220%;
+    color:rgb(178, 180, 216);
+}
+
+h3 {
+    font-size: 200%;
+}
+
+p {
+    font-size: 150%;
+    color: rgb(34, 37, 53);
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10rem 1rem 10rem;
+    padding-top: 1rem;
+}
+
+nav a {
+    color: rgb(138, 142, 206);
+    font-size: 150%;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: rgb(138, 142, 206);
+    font-size: 150%;
+    text-decoration: none;
+}s
+
+.content {
+    font-size: 150%;
+    text-decoration: none;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.img {
+    display: inline;
+}
+
+.image {
+    display: inline;
+    margin-right: 2rem;
+}
+
+.container {
+    max-width: 75%;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+}
+
+.title {
+    align-items: center;
+    margin: 2rem 30% 2rem 30%;
+    text-align: center;
+}
+
+.name {
+    margin-top: 4rem;
+}
+
+.content {
+    display: inline-block;
+    margin: 1rem 3rem 0 0;
+}
+
+figure {
+    margin-top: 4rem;
 }
