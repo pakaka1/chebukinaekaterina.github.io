@@ -4,7 +4,8 @@ body {
 }
 
 header {
-    background: #00b0d800 url(image/шапка.png) no-repeat;
+    background: #00b0d800 url(image/шапка2.png) no-repeat;
+    height: 300px;
     position: static;
 }
 
@@ -22,7 +23,7 @@ h2 {
     color:rgb(178, 180, 216);
     font-family: "Raleway", sans-serif;
     font-weight: 300;
-    margin-top: 0;
+    margin: 0 0 3rem 0;
 }
 
 h3 {
@@ -60,30 +61,6 @@ nav a:visited {
     text-decoration: none;
 }
 
-.content {
-    font-size: 150%;
-    text-decoration: none;
-}
-
-img {
-    border-radius: 10px;
-}
-
-.img {
-    display: inline;
-}
-
-.image {
-    display: inline;
-    margin-right: 2rem;
-}
-
-.container {
-    max-width: 75%;
-    margin: 0 auto;
-    padding-bottom: 1rem;
-}
-
 .title {
     align-items: center;
     margin: 2rem 30% 2rem 30%;
@@ -94,11 +71,26 @@ img {
     margin-top: 4rem;
 }
 
-.content {
-    display: inline-block;
-    margin: 0 5rem 0 0;
+.container {
+    max-width: 35%;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    
 }
 
-figure {
-    margin: 4rem 0 0 0;
+table {
+    font-size: 150%;
+    color: rgb(34, 37, 53);
+    height: 350px;
+}
+
+th {
+    padding: 1rem;
+    background-color: rgb(138, 142, 206);
+}
+
+td {
+    padding: 1rem;
 }
